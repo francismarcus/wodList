@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import List from './List';
+import Container from './Container';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <List />
+          <Container />
         </header>
       </div>
     );
