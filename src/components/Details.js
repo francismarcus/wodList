@@ -11,8 +11,10 @@ const Details = (props) => {
           <h3>{props.wod.name}</h3>
           <p> {props.wod.details} </p>
             <h4>Scaling:</h4>
-{props.wod.scaling} 
-
+            {props.wod.scaling}<br />
+            <br />
+            {props.wod.inter} <br />
+            {props.wod.begin}
         </div>
     )
 }
