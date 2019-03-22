@@ -9,10 +9,10 @@ const Details = (props) => {
     return (
         <div>
           <h3>{props.wod.name}</h3>
-          <p>
+          <p> {props.wod.details} </p>
+            <h4>Scaling:</h4>
+{props.wod.scaling} 
 
-            <h4>Description:</h4> {props.wod.details}
-          </p>
         </div>
     )
 }

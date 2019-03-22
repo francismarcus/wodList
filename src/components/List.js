@@ -41,7 +41,6 @@ class List extends React.Component {
 }
 
 const mapStateToProps = state => {
-  console.log(state)
   return { wods: state.wods };
 }
 
